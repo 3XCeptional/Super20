@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhiren Bhandare's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-color: #f8f9fa; /* Light gray background */
+        color: #212529; /* Dark gray text color */
+        font-family: Arial, sans-serif; /* Use a common sans-serif font */
+        padding-top: 56px; /* Add padding to the top to accommodate the fixed navbar */
+      }
+      .navbar {
+        background-color: #343a40; /* Dark gray navbar */
+      }
+      .navbar-brand {
+        color: #fff !important; /* White color for navbar brand */
+      }
+      .navbar-nav .nav-link {
+        color: #fff !important; /* White color for navbar links */
+      }
+      .jumbotron {
+        background-color: #343a40; /* Dark gray jumbotron */
+        color: #fff; /* White text color for jumbotron */
+      }
+      .card {
+        margin-bottom: 20px; /* Add margin between cards */
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dhiren Bhandare</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hobbies">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Dhiren Bhandare</h1>
+        <p class="lead">Project For Super 20</p>
+      </div>
+    </div>
+    <div class="container" id="Aboutme">
+        <h2>About me ? 👉 <a href="aboutme.html">Click here</a></h2>
+        </div>
+    <div class="container" id="projects">  
+      <h2>Projects</h2>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">getLINKS</h5>
+          <p class="card-text">
+            A Python3 tool designed to search links for various articles based
+            on user-provided queries. Generates a list of links according to
+            user-specified parameters.
+          </p>
+          <a
+            href="https://github.com/3XCeptional/getLINKS"
+            class="btn btn-primary"
+            >GitHub</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Linkextractor</h5>
+          <p class="card-text">
+            Download Web pages and Extract Links Made in Python (Modified
+            WebScrapper).
+          </p>
+          <a
+            href="https://github.com/3XCeptional/Linkextractor"
+            class="btn btn-primary"
+            >GitHub</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">The Hacking Journey (YouTube Channel)</h5>
+          <p class="card-text">
+            Linux tutorials, OverTheWire, HTB walkthrough videos.
+          </p>
+          <a
+            href="https://www.youtube.com/channel/UCqVsSIV3iRbZNR6yuRLsIuQ"
+            class="btn btn-primary"
+            >YouTube Channel</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="education">
+      <h2>Education</h2>
+      <p>Bachelor's Program of Computer Applications (BCA)</p>
+      <p>
+        Subjects: Computer System Architecture, Software Development and
+        Engineering, Computer Networks, Python, Java, C, C++
+      </p>
+    </div>
+
+    <div class="container" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Linux</li>
+        <li>Python</li>
+        <li>Cybersecurity</li>
+        <li>Software Development</li>
+        <li>Networking</li>
+      </ul>
+    </div>
+
+    <div class="container" id="hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>YouTube Channel: The Hacking Journey</li>
+        <li>Content: Linux tutorials, OverTheWire, HTB walkthrough videos.</li>
+      </ul>
+    </div>
+
+    <div class="container" id="contact">
+      <h2>Contact</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
