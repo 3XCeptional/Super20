@@ -6,7 +6,7 @@
 ## 1. Personal Portfolio Page:
    - Objective: Create a personal portfolio webpage.
 
-   - ** Requirements:**
+   - **Requirements:**
      - Header section with your name and a brief bio.
      - Sections for projects, education, and skills.
      - Include images and/or descriptions for each project.
